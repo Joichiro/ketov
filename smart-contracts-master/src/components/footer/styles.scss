@@ -1,0 +1,50 @@
+@use "src/styles/mixins";
+
+.footer {
+  width: 100%;
+  max-width: var(--max-width);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--padding);
+  margin: 0 auto;
+
+  &__name {
+    display: none;
+    @include mixins.font_params(24, 1.12, 400);
+    text-transform: uppercase;
+
+    color: var(--black-gr-color);
+  }
+
+  &__articles {
+    @include mixins.font_params(14, 1.57, 500);
+    text-decoration-line: underline;
+
+    color: var(--black-color);
+  }
+
+  &__email {
+    @include mixins.font_params(14, 1.57, 500);
+
+    color: var(--black-color);
+  }
+}
+
+@media screen and (min-width: 1190px) {
+  .footer {
+    margin: auto;
+
+    &__name {
+      display: flex;
+    }
+
+    &__articles {
+      @include mixins.font_params(20, 1.35, 400);
+    }
+
+    &__email {
+      @include mixins.font_params(20, 1.35, 400);
+    }
+  }
+}

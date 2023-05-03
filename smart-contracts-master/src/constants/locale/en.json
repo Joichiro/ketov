@@ -1,0 +1,71 @@
+{
+  "header": {
+    "name": "Daniil Ketov",
+    "links": {
+      "hire": "Hire me",
+      "linked": "Linked in"
+    }
+  },
+  "about": {
+    "title": "Transforming Businesses through Web3 Experience",
+    "subtitle": "I am",
+    "userAlt": "tg",
+    "description": "Blockchain & Web3 entrepreneur. Consultant. Revenue share economist."
+  },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "more 5 years",
+    "info": [
+      "I have more than 5 years of experience in the space of Web3, crypto gaming, and payments. I started my career as a software engineer for a product that mined for games. After that, I worked on the development of a platform for investing in games based on revenue share.",
+      "After the Game Investment Platform was launched, I moved to the product department to make a discovery about crypto payments for games.",
+      "Now I'm the Chief Technology Officer at XLA, which is a platform for making revenue-sharing contracts on blockchain. I take part in gaming-related events like Gamescom and GDC as well as blockchain-related events."
+    ]
+  },
+  "losung": {
+    "title": "Let’s build toghether",
+    "description": "We will get through your business together and I will build a web3 strategy for it"
+  },
+  "example": {
+    "subtitle": "Example outputs of consultation",
+    "title": [
+      "web3 implementation Ideas & Concepts",
+      "Product Discovery",
+      "Revenue share structure",
+      "Consultation/Mentoring"
+    ],
+    "hire": "Hire me"
+  },
+  "photo": {
+    "photoAlt": "Photo"
+  },
+  "process": {
+    "title": "Honest workflow and pricing. Sportsmanship.",
+    "info": [
+      "In the outside world, express almost certainly means more expensive. You pay for speed. In design, it’s quite the opossite. It’s normal to pay a lot for something taking a lot of time, estimated for zilions hours. For some reason, it’s normal to pay for more hours, but not for higher hourly rate and less hours. So designers are exaggerating the timesheet, catching up their low rates.",
+      "By the same logic, if you are too experienced, so you can work really fast, you should normally get paid less – for less hours spend. That’s why I said no to this crap and created the One day, for which you’ll pay like for a normal week project, but I won’t bullshit you and get it done in 10 hours of work time the same day."
+    ]
+  },
+  "projects": {
+    "title": "My other projects",
+    "items": [{
+      "title": "This is Garcy studio",
+      "text": [
+        "Boutique Brand & UX & UI & Product Studio.\nExperience, discover, and rethink products & brands.",
+        "Analyze, create a flawless user experience, give a shape and a purpose, making things not only beautiful but functional and meaningful too."
+      ]
+    }, {
+      "title": "Kyugo App",
+      "text": "Boutique Brand & UX & UI & Product Studio.\nExperience, discover, and rethink products & brands."
+    }, {
+      "title": "The UX Survival Guide",
+      "text": "Boutique Brand & UX & UI & Product Studio.\nExperience, discover, and rethink products & brands."
+    }]
+  },
+  "form": {
+    "title": "I share\nknowledge"
+  },
+  "footer": {
+    "name": "Daniil Ketov ®",
+    "articles": "Articles"
+  }
+}

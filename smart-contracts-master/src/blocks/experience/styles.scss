@@ -1,0 +1,67 @@
+@use "src/styles/mixins";
+
+.experience {
+  width: 100%;
+  max-width: var(--max-width);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding) var(--padding) 40px;
+  margin: 122px auto 0;
+
+  h2 {
+    @include mixins.font_params(25, 1, 700, -0.02);
+    text-transform: uppercase;
+
+    color: var(--black-color);
+  }
+
+  &__container {
+    > p {
+      margin-left: 51px;
+      display: none;
+      @include mixins.font_params(60, 1, 400, -0.02);
+      text-transform: uppercase;
+
+      color: var(--black-color);
+    }
+  }
+
+  &__info {
+    @include mixins.row_gap(15px);
+    @include mixins.font_params(14, 1.57, 500);
+    color: var(--black-color);
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 1190px) {
+  .experience {
+    flex-direction: row;
+    margin-top: 97px;
+    margin-bottom: 94px;
+
+    > * {
+      width: 100%;
+    }
+
+    h2 {
+      @include mixins.font_params(64, 1, 400, -0.02);
+    }
+
+    &__container {
+      > p {
+        display: flex;
+      }
+    }
+
+    &__info {
+      @include mixins.row_gap(30px);
+      @include mixins.font_params(25, 1.36, 400);
+      margin-top: 40px;
+
+      & > :first-child {
+        margin-bottom: 64px;
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+@use "src/styles/mixins";
+
+.losung {
+  @include mixins.row_gap(25px);
+  width: 310px;
+  max-width: var(--max-width);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding);
+  margin: 0 auto 20px;
+
+  > h2 {
+    @include mixins.font_params(40, 1, 700, -0.02);
+    text-transform: uppercase;
+    text-align: center;
+
+    color: var(--black-color);
+  }
+
+    > p {
+      margin: auto;
+      @include mixins.font_params(14, 1.43, 500);
+      text-align: center;
+
+      color: var(--black-color);
+    }
+}
+
+@media screen and (min-width: 1190px) {
+  .losung {
+    width: auto;
+    @include mixins.row_gap(160px);
+    margin-top: 20px;
+    margin-bottom: 27px;
+
+    > h2 {
+      @include mixins.font_params(120, 1, 400, -0.02);
+    }
+
+    > p {
+      max-width: 355px;
+      @include mixins.font_params(20, 1.35, 400);
+      text-align: center;
+
+      color: var(--black-color);
+    }
+  }
+}

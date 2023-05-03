@@ -1,0 +1,53 @@
+@use "./functions";
+
+@mixin font_params(
+  $size: 16,
+  $lineHeight: 1.25,
+  $weight: normal,
+  $letterSpacing: 0
+) {
+  font-size: functions.rem($size);
+  line-height: $lineHeight;
+
+  @if $weight != initial {
+    font-weight: $weight;
+  }
+
+  @if $letterSpacing != 0 {
+    letter-spacing: #{$letterSpacing}em;
+  }
+}
+
+@mixin hide_text() {
+  user-select: none;
+
+  color: transparent;
+  font-size: 0;
+}
+
+
+@mixin center() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin row_gap($gap) {
+  > :not(:last-child) {
+    margin-bottom: $gap;
+  }
+}
+
+@mixin bg($bg, $c, $hbg, $hc ) {
+  background-image: linear-gradient(30deg, $bg 50%, $hbg 50%);
+  color: $c;
+  border: 3px solid $bg;
+
+  background-size: 300%;
+  background-position: 0;
+
+  &:hover {
+    background-position: 100%;
+    color: $hc;
+  }
+}
