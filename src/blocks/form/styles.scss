@@ -1,0 +1,44 @@
+@use "src/styles/mixins";
+@use "sass:math";
+
+.form {
+  width: 100%;
+  max-width: var(--max-width);
+  @include mixins.row_gap(20px);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding) var(--padding) 41px;
+  margin: auto;
+
+  h2 {
+    @include mixins.font_params(40, 1, 700, -0.02);
+    text-transform: uppercase;
+
+    color: var(--black-color);
+    white-space: pre-line;
+    text-align: center;
+  }
+
+  iframe {
+    margin: auto;
+    width: 100%;
+    border: 1px solid #EEE
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .iframe {
+      width: 480px;
+  }
+}
+
+@media screen and (min-width: 1190px) {
+  .form {
+    margin-top: 147px;
+    @include mixins.row_gap(80px);
+
+    h2 {
+      @include mixins.font_params(120, 1, 400, -0.02);
+    }
+  }
+}

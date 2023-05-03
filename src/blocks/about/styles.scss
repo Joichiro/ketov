@@ -1,0 +1,129 @@
+@use "src/styles/mixins";
+
+.about {
+  @include mixins.row_gap(40px);
+  width: 100%;
+  max-width: var(--max-width);
+
+  padding: 40px var(--padding);
+  margin: auto;
+
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+
+  > header {
+    @include mixins.row_gap(20px);
+
+    display: flex;
+    flex-direction: column;
+    max-width: 1124px;
+    margin: auto;
+
+    p {
+      @include mixins.font_params(12, 1.17, 500);
+
+      color: var(--gray-color);
+    }
+
+    h1, h2 {
+      @include mixins.font_params(40, 1, 700, -0.02);
+
+      text-transform: uppercase;
+
+      color: var(--black-color);
+    }
+  }
+
+  &__container {
+    display: flex;
+    position: relative;
+    width: fit-content;
+    margin: auto;
+  }
+
+  picture {
+    width: 120px;
+    height: 152px;
+    object-fit: cover;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__tg {
+    @include mixins.hide_text;
+
+    width: 40px;
+    height: 40px;
+    background-color: var(--tg-color);
+    padding: 9px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    svg {
+      width: 100%;
+      height: 100%;
+
+      fill: #F8F8F8;
+    }
+
+    &:hover {
+      transform: scale(1.3);
+    }
+  }
+
+  &__description {
+    @include mixins.font_params(14, 1.43, 500);
+    text-align: center;
+    margin: 45px auto 0;
+
+    color: var(--black-color);
+    max-width: 250px;
+  }
+}
+
+@media screen and (min-width: 1190px) {
+  .about {
+    @include mixins.row_gap(198px);
+
+    padding: 60px var(--padding);
+
+    > header {
+      @include mixins.row_gap(40px);
+
+      p {
+        @include mixins.font_params(20, 1.35, 400);
+      }
+
+      h1, h2 {
+        @include mixins.font_params(120, 1, 400, -0.02);
+      }
+    }
+
+    picture {
+      width: 230px;
+      height: 290px;
+    }
+
+    &__tg {
+      bottom: 20px;
+      left: auto;
+      right: 20px;
+      margin: auto;
+    }
+
+    &__description {
+      @include mixins.font_params(20, 1.35, 400);
+      margin: 40px auto 0;
+      max-width: 340px;
+    }
+  }
+}

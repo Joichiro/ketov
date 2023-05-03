@@ -1,0 +1,17 @@
+:root {
+  --max-width: 1800px;
+  --padding: 20px;
+  --white-color: #ffffff;
+  --light-gray-color: #E0E0E0;
+  --gray-color: #808080;
+  --black-gr-color: #101010;
+  --black-color: #000000;
+  --tg-color: #2DA0F3;
+  --accept-color: #FF1547;
+}
+
+@media screen and (min-width: 1190px) {
+  :root {
+    --padding: 60px;
+  }
+}
