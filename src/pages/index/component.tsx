@@ -7,8 +7,6 @@ import Losung from "../../blocks/losung";
 import Example from "../../blocks/example";
 import Photo from "../../blocks/photo";
 import Process from "../../blocks/process";
-import Projects from "../../blocks/projects";
-import Form from "../../blocks/form";
 import Footer from "../../components/footer";
 import LineBG from "../../components/lineBG";
 import Divider from "../../components/divider";

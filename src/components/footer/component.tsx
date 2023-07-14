@@ -1,7 +1,7 @@
 import "./styles.scss";
 import { useTranslation } from "react-i18next";
 
-import { ARTICLES, EMAIL, LOGO, TG } from "../../constants/links.constants";
+import { ARTICLES, LOGO, TG } from "../../constants/links.constants";
 
 export default function Footer() {
   const { t } = useTranslation("footer");
