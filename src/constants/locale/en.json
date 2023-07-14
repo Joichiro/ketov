@@ -2,38 +2,40 @@
   "header": {
     "name": "Daniil Ketov",
     "links": {
-      "hire": "Hire me",
-      "linked": "Linked in"
+      "hire": "Contact me",
+      "linked": "LinkedIn"
     }
   },
   "about": {
-    "title": "Transforming Businesses through Web3 Experience",
-    "subtitle": "I am",
+    "title": "Grow your revenue through Web3 Experience",
+    "subtitle": "I",
     "userAlt": "tg",
-    "description": "Blockchain & Web3 entrepreneur. Consultant. Revenue share economist."
+    "description": "Games & Web3 entrepreneur. Consultant. Revenue share advocate."
   },
   "experience": {
     "title": "Experience",
     "subtitle": "more 5 years",
     "info": [
-      "I have more than 5 years of experience in the space of Web3, crypto gaming, and payments. I started my career as a software engineer for a product that mined for games. After that, I worked on the development of a platform for investing in games based on revenue share.",
-      "After the Game Investment Platform was launched, I moved to the product department to make a discovery about crypto payments for games.",
-      "Now I'm the Chief Technology Officer at XLA, which is a platform for making revenue-sharing contracts on blockchain. I take part in gaming-related events like Gamescom and GDC as well as blockchain-related events."
+      "I have more than 5 years of experience in the space of Web3, video games monetization, and software engineering.",
+      "I worked on various products including crypto payments for games, miner for players, game investment paltform and web3 protocol for revenue share management",
+      "Now I'm a development leader at 3thix, which is a wallet by gamers for gamers.",
+      "I take part in gaming-related events like Gamescom and GDC as well as blockchain-related events."
     ]
   },
   "losung": {
     "title": "Let’s build toghether",
-    "description": "We will get through your business together and I will build a web3 strategy for it"
+    "description": "We will get through your business together and I will build a web3 strategy for you"
   },
   "example": {
-    "subtitle": "Example outputs of consultation",
+    "subtitle": "Outputs",
     "title": [
-      "web3 implementation Ideas & Concepts",
+      "web3 grow Ideas & Concepts",
       "Product Discovery",
+      "Detailed launch strategy",
       "Revenue share structure",
-      "Consultation/Mentoring"
+      "Consultation"
     ],
-    "hire": "Hire me"
+    "hire": "Call me"
   },
   "photo": {
     "photoAlt": "Photo"
@@ -47,19 +49,23 @@
   },
   "projects": {
     "title": "My other projects",
-    "items": [{
-      "title": "This is Garcy studio",
-      "text": [
-        "Boutique Brand & UX & UI & Product Studio.\nExperience, discover, and rethink products & brands.",
-        "Analyze, create a flawless user experience, give a shape and a purpose, making things not only beautiful but functional and meaningful too."
-      ]
-    }, {
-      "title": "Kyugo App",
-      "text": "Boutique Brand & UX & UI & Product Studio.\nExperience, discover, and rethink products & brands."
-    }, {
-      "title": "The UX Survival Guide",
-      "text": "Boutique Brand & UX & UI & Product Studio.\nExperience, discover, and rethink products & brands."
-    }]
+    "items": [
+      {
+        "title": "This is Daniel",
+        "text": [
+          "Boutique Brand & UX & UI & Product Studio.\nExperience, discover, and rethink products & brands.",
+          "Analyze, create a flawless user experience, give a shape and a purpose, making things not only beautiful but functional and meaningful too."
+        ]
+      },
+      {
+        "title": "Kyugo App",
+        "text": "Boutique Brand & UX & UI & Product Studio.\nExperience, discover, and rethink products & brands."
+      },
+      {
+        "title": "The UX Survival Guide",
+        "text": "Boutique Brand & UX & UI & Product Studio.\nExperience, discover, and rethink products & brands."
+      }
+    ]
   },
   "form": {
     "title": "I share\nknowledge"
