@@ -1,17 +1,15 @@
-import './styles.scss';
-import Header from '../../components/header';
-import Nav from '../../components/nav';
-import About from '../../blocks/about';
-import Experience from '../../blocks/experience';
-import Losung from '../../blocks/losung';
-import Example from '../../blocks/example';
-import Photo from '../../blocks/photo';
-import Process from '../../blocks/process';
-import Projects from '../../blocks/projects';
-import Form from '../../blocks/form';
-import Footer from '../../components/footer';
-import LineBG from '../../components/lineBG';
-import Divider from '../../components/divider';
+import "./styles.scss";
+import Header from "../../components/header";
+import Nav from "../../components/nav";
+import About from "../../blocks/about";
+import Experience from "../../blocks/experience";
+import Losung from "../../blocks/losung";
+import Example from "../../blocks/example";
+import Photo from "../../blocks/photo";
+import Process from "../../blocks/process";
+import Footer from "../../components/footer";
+import LineBG from "../../components/lineBG";
+import Divider from "../../components/divider";
 
 export default function IndexPage() {
   return (
@@ -34,8 +32,8 @@ export default function IndexPage() {
           <Photo />
           <Process />
           <Divider withLine />
-          <Projects />
-          <Form />
+          {/* <Projects /> */}
+          {/* <Form /> */}
         </main>
         <Footer />
         <div className="index-page__nav-wrapper">
